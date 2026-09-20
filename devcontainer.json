@@ -1,0 +1,5 @@
+{
+  "name": "STQA Practical 9 - List Combo Box",
+  "image": "mcr.microsoft.com/devcontainers/java:1-25-bookworm",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y chromium chromium-driver && java -version && mvn -version && chromium --version && chromedriver --version"
+}
